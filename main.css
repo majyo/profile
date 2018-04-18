@@ -1,0 +1,340 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #888888;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+.line {
+    height: 3px;
+    border: none;
+    border-top: 3px solid #ffffff;
+}
+
+.nav {
+    width: 100%;
+    background-color: #722872;
+    box-shadow:0 2px 5px #666666;
+    position: fixed;
+}
+
+.main {
+    width: 1024px;
+    background-color: #aaaaaa;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0 5px 10px #666666;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav a {
+    float: left;
+    padding: 25px 40px 25px 40px;
+    font-size: 20px;
+    font-family: 微软雅黑, sans-serif;
+    color: #888888;
+    text-decoration: none;
+}
+
+#person {
+    margin-left: 20%;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.col1 {
+    background-color: #aaaaaa;
+}
+
+.col1 div {
+    padding: 200px 35% 30px 30px;
+    min-height: 200px;
+}
+
+.col1 img {
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    float: right;
+    margin: 150px 100px 30px 30px;
+}
+
+.col1 div p {
+    text-align: right;
+    font-size: 26px;
+    font-family: 微软雅黑, sans-serif;
+    color: #ffffff;
+}
+
+.col2 {
+    background-color: #ffffff;
+    padding: 60px 30px 50px 30px;
+}
+
+.col2 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 微软雅黑, sans-serif;
+    color: #888888;
+}
+
+.col2 hr {
+    border-top: 3px solid #888888;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.col2:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.workList {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.workList li {
+    float: left;
+}
+
+.workList img {
+    width: 400px;
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.col3 {
+    background-color: #aaaaaa;
+    padding: 60px 30px 50px 30px;
+}
+
+.col3 h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: 微软雅黑, sans-serif;
+    color: #ffffff;
+}
+
+.col3 hr {
+    border-top: 3px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.contact {
+    margin: 80px 50% 40px 30px;
+}
+
+.col3 input, .col3 textarea {
+    height: 50px;
+    width: 100%;
+    font-size: 26px;
+    font-family: 微软雅黑, sans-serif;
+    color: #ffffff;
+    background-color: #aaaaaa;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+}
+
+.col3 input:focus {
+}
+
+.col3 textarea {
+    height: 150px;
+}
+
+.col3 button {
+    background-color: #888888;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+}
+
+.col3 button:hover {
+    background-color: #666666;
+    color: #dddddd;
+}
+
+.contact div {
+    margin: 10px auto 10px auto;
+}
+
+.footer {
+    background-color: #722872;
+    box-shadow: 0 -3px 5px #666666;
+}
+
+.about {
+    background-color: #aaaaaa;
+    height: 200px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+#about1, #about2 {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#about1 {
+    margin-left: 500px;
+}
+
+#about2 {
+    margin-right: 500px;
+}
+
+.about p {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 微软雅黑, sans-serif;
+}
+
+.license {
+    text-align: center;
+    font-family: 微软雅黑, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#madeInf {
+    font-size: 18px;
+}
+
+.writter {
+    text-decoration: none;
+    color:#722872;
+}
+
+.writter:hover {
+    color: #ffffff;
+}
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+.portrait {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.workList img{
+    width: 400px;
+    height: 400px;
+}
+
+.mainRow1 {
+    background-color: #eeeeee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mainRow2 {
+    background-color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.mainRow3 {
+    background-color: #eeeeee;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content1, .content2, .content3 {
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px #666666;
+}
+
+h2 {
+    text-align: center;
+    font-family: 微软雅黑, sans-serif;
+    font-size: 36px;
+    color: #000000;
+}
+
+.content1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content1 p {
+    text-align: right;
+    font-family: 微软雅黑, sans-serif;
+    font-size: 20px;
+    color: #000000;
+}
+
+.content2 img {
+    width: 100%;
+    height: auto;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    font-family: 微软雅黑, sans-serif;
+    color: #666666;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 1px solid #666666;
+}
+
+.contact input:focus {
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact button {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
